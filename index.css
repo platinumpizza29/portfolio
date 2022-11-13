@@ -1,0 +1,85 @@
+h1,
+h3,
+h5,
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+.nav {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  flex-direction: row;
+
+  height: 100px;
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#heading {
+  font-size: 10em;
+}
+
+#aboutMe {
+  min-height: 600px;
+  max-width: 100%;
+  background-color: #15151a;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: justify;
+}
+
+#description {
+  font-weight: bold;
+  max-width: 400px;
+}
+
+#story {
+  min-height: 600px;
+  max-width: 100%;
+  background-color: #15151a;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: justify;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+  #heading {
+    font-size: 4em;
+  }
+
+  #aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+
+  #story {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .projects {
+    margin: 20px;
+  }
+  .card {
+    margin-top: 20px;
+  }
+}
