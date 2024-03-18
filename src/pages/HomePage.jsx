@@ -59,7 +59,7 @@ export default function HomePage() {
             <section
                 className={"mt-10 p-8 place-items-center"}>
                 <h2 className={"text-4xl text-center"}>Selected Works</h2>
-                <div className="p-14">
+                <div className="p-4 md:p-14">
                     <ProjectCards/>
                 </div>
             </section>
