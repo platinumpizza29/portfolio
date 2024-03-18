@@ -4,6 +4,8 @@ import {RiReactjsFill} from "react-icons/ri";
 import {FaGitSquare, FaHtml5, FaNode} from "react-icons/fa";
 import {SiMongodb, SiMysql, SiTailwindcss} from "react-icons/si";
 import {TbApi} from "react-icons/tb";
+import Footer from "../components/footer.jsx";
+import ProjectCards from "../components/ProjectCards.jsx";
 
 
 export default function HomePage() {
@@ -38,7 +40,8 @@ export default function HomePage() {
                     <WorkHistory/>
                 </div>
             </section>
-            <section className={"grid grid-cols-1 md:grid-cols-2 bg-base-200 my-10 p-8 place-items-center"}>
+            <section
+                className={"grid grid-cols-1 md:grid-cols-2 bg-primary text-primary-content mt-10 p-8 place-items-center"}>
                 <div className="">
                     <h2 className={"text-4xl"}>Experience with variety of Languages and Frameworks</h2>
                 </div>
@@ -53,6 +56,14 @@ export default function HomePage() {
                     <h1><TbApi/></h1>
                 </div>
             </section>
+            <section
+                className={"text-primary-content mt-10 p-8 place-items-center"}>
+                <h2 className={"text-4xl text-center"}>Selected Works</h2>
+                <div className="grid grid-cols-1 p-14 md:grid-cols-2">
+                    <ProjectCards/>
+                </div>
+            </section>
+            <Footer/>
         </div>
     );
 }
