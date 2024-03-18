@@ -1,0 +1,18 @@
+[
+  {
+    "companyName": "Ultimate Infosec Technology Pvt. Ltd.",
+    "location": "India",
+    "position": "Software Developer",
+    "startDate": "August 2020",
+    "endDate": "August 2021",
+    "achievements": [
+      "Streamlined website codebase by implementing efficient HTML, CSS, and JavaScript practices, resulting in an average page load time improvement of 30%, leading to increased organic traffic by over 25%.",
+      "Designed and developed a mobile application user interface for a client using HTML, CSS, and JavaScript, resulting in a 20% increase in user engagement.",
+      "Collaborated with cross-functional teams to identify areas of improvement and implemented changes that resulted in an average of 15% faster page load times on all websites.",
+      "Integrated JSON Web Tokens (JWT) for secure authentication, reducing the risk of data breaches by 70% and improving overall user trust in the platform.",
+      "Developed a React form for inputting post data, reducing user errors by 15% and improving overall user experience.",
+      "Utilized Prisma as the ORM."
+    ]
+  }
+]
+
