@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Clover",
+    "description": "A chat app",
+    "technologiesUsed": [
+      "Express",
+      "Socket.io",
+      "PostgreSQL",
+      "Prisma",
+      "React",
+      "Flutter"
+    ],
+    "startDate": "Please add start date",
+    "endDate": "Ongoing",
+    "projectURL": "Please add project URL if available",
+    "keyFeatures": [
+      "Real-time messaging",
+      "Cross-platform support",
+      "Database integration with PostgreSQL and Prisma",
+      "Real-time updates with Socket.io"
+    ]
+  },
+  {
+    "name": "Genesis",
+    "description": "A chat app",
+    "technologiesUsed": [
+      "Express",
+      "Socket.io",
+      "PostgreSQL",
+      "Prisma",
+      "React",
+      "Flutter"
+    ],
+    "startDate": "Please add start date",
+    "endDate": "Ongoing",
+    "projectURL": "Please add project URL if available",
+    "keyFeatures": [
+      "Real-time messaging",
+      "Cross-platform support",
+      "Database integration with PostgreSQL and Prisma",
+      "Real-time updates with Socket.io"
+    ]
+  }
+]
