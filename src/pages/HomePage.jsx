@@ -52,7 +52,7 @@ export default function HomePage() {
         </div>
       </section>
       <section className="bg-primary mt-10 p-12">
-        <Marquee className="">
+        <Marquee className="" autoFill={true}>
           <RiReactjsFill className="text-7xl mx-10" />
           <FaNode className="text-7xl mx-10" />
           <FaGitSquare className="text-7xl mx-10" />
