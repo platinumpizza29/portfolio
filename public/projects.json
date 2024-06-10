@@ -2,6 +2,7 @@
   {
     "name": "Clover",
     "description": "A chat app",
+    "imageUrl": "https://s3-alpha.figma.com/hub/file/2610778840/5e9eddd9-5736-4945-9f55-20136583dc94-cover.png",
     "technologiesUsed": [
       "Express",
       "Socket.io",
@@ -23,6 +24,7 @@
   {
     "name": "Genesis",
     "description": "A chat app",
+    "imageUrl": "https://elements-cover-images-0.imgix.net/0d07f83d-d75a-40b4-8d96-5c6916cf0250?auto=compress%2Cformat&w=2038&fit=max&s=41c1ffa7cdb124dc16e56e5b109eb5a5",
     "technologiesUsed": [
       "Express",
       "Socket.io",
@@ -39,6 +41,52 @@
       "Cross-platform support",
       "Database integration with PostgreSQL and Prisma",
       "Real-time updates with Socket.io"
+    ]
+  },
+  {
+    "name": "Recipe App",
+    "description": "An app for browsing and managing recipes",
+    "imageUrl": "https://cdn.dribbble.com/users/1857037/screenshots/16619164/media/af520f711f66f61ef379ce948551b19a.jpg?resize=1000x750&vertical=center",
+    "technologiesUsed": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "React",
+      "Redux",
+      "AWS S3"
+    ],
+    "startDate": "Please add start date",
+    "endDate": "Ongoing",
+    "projectURL": "Please add project URL if available",
+    "keyFeatures": [
+      "User authentication",
+      "Recipe search and filters",
+      "Add and edit recipes",
+      "Image upload and storage",
+      "Responsive design"
+    ]
+  },
+  {
+    "name": "Expense Tracker",
+    "description": "An app for tracking personal expenses",
+    "imageUrl": "https://cdn.dribbble.com/userupload/4171714/file/original-fd8c5cce567f5d5dc2b4c9549ddf4252.jpg?resize=1024x768",
+    "technologiesUsed": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "React",
+      "Redux",
+      "Chart.js"
+    ],
+    "startDate": "Please add start date",
+    "endDate": "Ongoing",
+    "projectURL": "Please add project URL if available",
+    "keyFeatures": [
+      "User authentication",
+      "Add and categorize expenses",
+      "Generate expense reports",
+      "Data visualization with charts",
+      "Responsive design"
     ]
   }
 ]
