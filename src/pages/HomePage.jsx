@@ -39,7 +39,7 @@ export default function HomePage() {
             {/*social button add later*/}
           </div>
         </div>
-        <Lottie animationData={person} loop={true} />;
+        <Lottie animationData={person} loop={true} />
       </section>
       <section className="grid grid-cols-1 md:grid-cols-2 my-10 p-8 place-items-center">
         <div className="">
