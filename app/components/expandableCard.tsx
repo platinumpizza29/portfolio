@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 
 export function ExpandableCardDemo() {
   const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
-    null
+    null,
   );
   const id = useId();
   const ref = useRef<HTMLDivElement>(null);
@@ -209,20 +209,24 @@ const cards = [
     title: "TimeBird",
     src: "/Timebird1.png",
     ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://v0-timebird.vercel.app/",
     content: () => {
       return (
         <p>
-          Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-          her melancholic and cinematic music style. Born Elizabeth Woolridge
-          Grant in New York City, she has captivated audiences worldwide with
-          her haunting voice and introspective lyrics. <br /> <br /> Her songs
-          often explore themes of tragic romance, glamour, and melancholia,
-          drawing inspiration from both contemporary and vintage pop culture.
-          With a career that has seen numerous critically acclaimed albums, Lana
-          Del Rey has established herself as a unique and influential figure in
-          the music industry, earning a dedicated fan base and numerous
-          accolades.
+          TimeBird is a modern, user-friendly web application meticulously
+          crafted to streamline time tracking, scheduling, and payroll
+          management for blue-collar workers. Recognizing the unique challenges
+          and needs of this essential workforce, TimeBird is designed to be
+          intuitive, efficient, and empowering. Built with a cutting-edge
+          technology stack including Next.js 15, Prisma, shadcn/ui, PostgreSQL,
+          and Tailwind CSS, TimeBird offers a seamless and performant experience
+          across devices. More than just a time tracking tool, TimeBird enables
+          workers to take control of their schedules, accurately log their
+          hours, and confidently maximize their earnings – all within a secure
+          and reliable platform. We believe that technology should simplify, not
+          complicate. TimeBird is built on that principle, delivering a powerful
+          set of features in an accessible package, designed to make your
+          workday easier and more rewarding.
         </p>
       );
     },
@@ -232,19 +236,14 @@ const cards = [
     title: "Expense Tracker",
     src: "/ExpenseTracker.png",
     ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "#",
     content: () => {
       return (
         <p>
-          Babu Maan, a legendary Punjabi singer, is renowned for his soulful
-          voice and profound lyrics that resonate deeply with his audience. Born
-          in the village of Khant Maanpur in Punjab, India, he has become a
-          cultural icon in the Punjabi music industry. <br /> <br /> His songs
-          often reflect the struggles and triumphs of everyday life, capturing
-          the essence of Punjabi culture and traditions. With a career spanning
-          over two decades, Babu Maan has released numerous hit albums and
-          singles that have garnered him a massive fan following both in India
-          and abroad.
+          A comprehensive expense tracking application built with Golang,
+          featuring budget management, spending analysis, and financial
+          reporting tools. Implements secure user authentication and persistent
+          data storage with responsive design for both desktop and mobile users.
         </p>
       );
     },
@@ -255,19 +254,15 @@ const cards = [
     title: "Map Plotter",
     src: "/MapPlotter.png",
     ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "#",
     content: () => {
       return (
         <p>
-          Metallica, an iconic American heavy metal band, is renowned for their
-          powerful sound and intense performances that resonate deeply with
-          their audience. Formed in Los Angeles, California, they have become a
-          cultural icon in the heavy metal music industry. <br /> <br /> Their
-          songs often reflect themes of aggression, social issues, and personal
-          struggles, capturing the essence of the heavy metal genre. With a
-          career spanning over four decades, Metallica has released numerous hit
-          albums and singles that have garnered them a massive fan following
-          both in the United States and abroad.
+          Interactive map visualization tool created with Golang backend and
+          HTMX for dynamic frontend interactions. Allows users to plot, save,
+          and share location data with custom markers and route planning
+          capabilities. Features real-time updates without full page refreshes
+          through HTMX integration.
         </p>
       );
     },
@@ -276,7 +271,7 @@ const cards = [
 
 export function useOutsideClick(
   ref: React.RefObject<HTMLDivElement | null>,
-  callback: () => void
+  callback: () => void,
 ) {
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
