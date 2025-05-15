@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 
 export function ExpandableCardDemo() {
   const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
-    null,
+    null
   );
   const id = useId();
   const ref = useRef<HTMLDivElement>(null);
@@ -236,7 +236,7 @@ const cards = [
     title: "Expense Tracker",
     src: "/ExpenseTracker.png",
     ctaText: "Visit",
-    ctaLink: "#",
+    ctaLink: "https://github.com/platinumpizza29?tab=repositories",
     content: () => {
       return (
         <p>
@@ -254,7 +254,7 @@ const cards = [
     title: "Map Plotter",
     src: "/MapPlotter.png",
     ctaText: "Visit",
-    ctaLink: "#",
+    ctaLink: "https://github.com/platinumpizza29?tab=repositories",
     content: () => {
       return (
         <p>
@@ -271,7 +271,7 @@ const cards = [
 
 export function useOutsideClick(
   ref: React.RefObject<HTMLDivElement | null>,
-  callback: () => void,
+  callback: () => void
 ) {
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
