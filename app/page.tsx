@@ -10,6 +10,8 @@ export default function Home() {
       <NavbarDemo />
       <HeroHighlight>
         <h1 className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto ">
+          Hello I&apos;m Keyur Bilgi
+          <br />
           I&apos;m a software engineer that
           <br /> Turns ideas into interfaces, and interfaces into
           <br />
